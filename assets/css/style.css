@@ -1,0 +1,58 @@
+
+.of-contenedor{
+    width:900px;
+    margin:30px auto;
+    background:rgb(221, 224, 208);
+    border:1px solid #ccc;
+}
+.of-titulo {
+    background:#0f477e;
+    color:rgb(231, 232, 195);
+    padding:10px;
+    text-align:center;
+    font-weight:bold;
+}
+.of-formulario{
+    padding:10px;
+}
+input, select{
+    padding:5px;
+    margin:5px;
+}
+textarea{
+    width:95%;
+    height:60px;
+    margin:5px;
+}
+.botones-lado{
+    position:absolute;
+    right:20px;
+    top:100px;
+}
+.botones-lado button{
+    display:block;
+    margin:5px;
+    padding:6px 10px;
+}
+table{
+    width:100%;
+    border-collapse:collapse;
+    margin-top:10px;
+}
+th, td{
+    border:1px solid #999;
+    padding:6px;
+    text-align:left;
+}
+th{
+    background:#2f5d8a;
+    color:white;
+}
+.footer{
+    padding:10px;
+    text-align:center;
+}
+.footer button{
+    padding:8px 12px;
+    margin:5px;
+}
