@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+<div class="re-principal">
+    <div class="re-header1"><h4>SISTEMA DE ACTIVOS FIJOS</h4></div>
+    <div class="re-header2"><h5>Recursos</h5></div>
+    <div class="re-header3"><h1>ADMINISTRACION DE RECURSOS</h1></div>
+<div class="re-principal">
+    <div class="re-header1"><h4>SISTEMA DE ACTIVOS FIJOS</h4></div>
+    <div class="re-header2"><h5>Recursos</h5></div>
+    <div class="re-header3"><h1>ADMINISTRACION DE RECURSOS</h1></div>
+
+    <div class="re-contenido">
+        <div class="re-menu">
+            <div class="re-grupo-gestion">
+                <button class="vfp-button">Cerrar Gestión</button>
+                <button class="vfp-button">Cambiar Gestión</button>
+            </div>
+            
+            <div class="re-grupo-herramientas">
+                <button class="vfp-button">Importar/Exportar</button>
+                <button class="vfp-button">Índices UFV</button>
+                <button class="vfp-button">Seguridad</button>
+                <button class="vfp-button">Re-indexar</button>
+                <button class="vfp-button">Migrador</button>
+            </div>
+        </div>
+
+        <div class="re-panel">
+            <div class="re-input-gestion">
+                <input type="text" value="2013" class="vfp-input-small">
+            </div>
+            
+            <textarea rows="6" class="vfp-textarea"></textarea>
+            
+            <div class="re-footer">
+                <button class="vfp-button-exit">Salir</button>
+            </div>
+        </div>
+    </div>
+</div>
+    <div class="re-contenido">
+        <div class="re-menu">
+            <div class="re-grupo-gestion">
+                <button class="vfp-button">Cerrar Gestión</button>
+                <button class="vfp-button">Cambiar Gestión</button>
+            </div>
+            
+            <div class="re-grupo-herramientas">
+                <button class="vfp-button">Importar/Exportar</button>
+                <button class="vfp-button">Índices UFV</button>
+                <button class="vfp-button">Seguridad</button>
+                <button class="vfp-button">Re-indexar</button>
+                <button class="vfp-button">Migrador</button>
+            </div>
+        </div>
+
+        <div class="re-panel">
+            <div class="re-input-gestion">
+                <input type="text" value="2013" class="vfp-input-small">
+            </div>
+            
+            <textarea rows="6" class="vfp-textarea"></textarea>
+            
+            <div class="re-footer">
+                <button class="vfp-button-exit">Salir</button>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

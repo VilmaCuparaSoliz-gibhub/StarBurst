@@ -94,7 +94,7 @@ button{
 * { margin: 0; padding: 0; box-sizing: border-box; }
 
 .re-principal {
-    background-color: #F0F0F0;
+    background-color: #F0F0F0; /* Fondo gris claro tipo Windows */
     min-height: 100vh;
     font-family: 'Segoe UI', Tahoma, sans-serif;
 }
@@ -180,4 +180,3 @@ button{
     padding: 5px 25px;
     box-shadow: inset 1px 1px 0px #fff;
 }
-/*hasta aqui la rama de recursos*/
