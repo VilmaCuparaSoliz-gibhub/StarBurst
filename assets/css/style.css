@@ -1,6 +1,172 @@
+/*oficina*/
+.of-contenedor{
+    width:900px;
+    margin:30px auto;
+    background:rgb(221, 224, 208);
+    border:1px solid #ccc;
+}
+.of-formulario{
+    padding:10px;
+}
+input, select{
+    padding:5px;
+    margin:5px;
+}
+textarea{
+    width:95%;
+    height:60px;
+    margin:5px;
+}
+.botones-lado{
+    position:absolute;
+    right:20px;
+    top:100px;
+}
+.botones-lado button{
+    display:block;
+    margin:5px;
+    padding:6px 10px;
+}
+table{
+    width:98%;
+    border-collapse:collapse;
+    margin-top:10px;
+    background-color: rgb(233, 227, 227);
+}
+th, td{
+    border:1px solid #999;
+    padding:6px;
+    text-align:left;
+    
+}
+th{
+    background:#2f5d8a;
+    color:white;
+}
+.footer{
+    padding:10px;
+    text-align:center;
+}
+.footer button{
+    padding:8px 12px;
+    margin:5px;
+}    
+
+/* TRANSFERENCIA*/
+
 * {
-    margin: 0px ;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Tahoma, "MS Sans Serif", sans-serif;
+    background: #ffffff;
+    font-size: 11px;
+    padding: 20px;
+}
+
+.ventana {
+    width: 470px;
+    background: #ffffff;
+    border: 1px solid #000000;
+    margin: 0 auto;
+}
+
+.titulo-bar {
+    background: #000000;
+    color: #ffffff;
+    padding: 2px 4px;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.titulo-form {
+    background: linear-gradient(to bottom, #245EDC 0%, #1941A5 50%, #0A246A 100%);
+    color: #ffffff;
+    text-align: center;
+    padding: 5px;
+    font-weight: bold;
+    font-size: 12px;
+    border: 1px solid #003C74;
+}
+.formulario {
+    background: #ffffff;
+    border: 1px solid #808080;
+    border-top: 1px solid #ffffff;
+    padding: 4px 6px 6px 6px;
+}
+
+.fila {
+    display: flex;
+    align-items: center;
+    height: 24px;
+    border-bottom: 1px solid #aca899;
+}
+
+.fila:last-of-type {
+    border-bottom: none;
+}
+
+.fila label {
+    width: 140px;
+    color: #0A246A;
+    font-weight: bold;
+    font-size: 11px;
+    padding-left: 2px;
+}
+
+.fila input,.fila select {
+    flex: 1;
+    height: 20px;
+    border: 1px solid #000000;
+    font-size: 11px;
+    font-family: Tahoma, sans-serif;
+    padding: 1px 3px;
+    background: #ffffff;
+    color:#000000;
+}
+
+.fila input[readonly] {
+    background: #ffffff;
+}
+
+.select-azul {
+    background: #316AC5 !important;
+    color: #ffffff;
+    border: 1px solid #000000;
+}
+
+.botones {
+    text-align: center;
+    padding: 10px;
+    padding-bottom: 6px;
+    height: 30px;
+    display: flex;
+    justify-content: end;
+    
+}
+.btn-windows {
+    width: 75px;
+    height: 23px;
+    margin-left: 6px;
+    font-size: 11px;
+    font-family: Tahoma, sans-serif;
+    background: linear-gradient(to bottom, #1941A5 0%, #0A246A 50%, #000080 100%);
+    border: 1px solid #000033;
+    color: #ffffff;
+    cursor: pointer;
+    text-align: center;
+    padding-bottom: 8px;
+}
+
+.btn-windows:hover {
+    background: linear-gradient(to bottom, #0A246A 0%, #000080 50%, #000033 100%);
+}
+
+.btn-windows:active {
+    background: linear-gradient(to bottom, #000080 0%, #0A246A 50%, #1941A5 100%);
 }
 
 /* este es el inicio de unidad*/
