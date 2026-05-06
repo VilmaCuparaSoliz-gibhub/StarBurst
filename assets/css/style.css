@@ -261,4 +261,153 @@ body {
     border: 3px solid rgb(198, 211, 240);
     padding-bottom: 12px 15 px;
 }
+/**inicio de grupo contable*/
+#grupo {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    #grupo body {
+        font-family: Tahoma, Arial, sans-serif;
+        font-size: 11px;
+        background-color: #d4d0c8;
+        padding: 10px;
+    }
+    #grupo .window {
+        width: 800px;
+        background-color: #ece9d8;
+        border: 2px solid #0054e3;
+        box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+    }
+    #grupo .title-bar {
+        background-color: #000000;
+        color: white;
+        padding: 3px 8px;
+        font-weight: bold;
+        font-size: 11px;
+    }
+    #grupo .header {
+        background: linear-gradient(to bottom, #3b6ea5, #2b4f7c);
+        color: white;
+        padding: 4px 10px;
+        font-size: 11px;
+        display: flex;
+        justify-content: space-between;
+    }
+    #grupo .header-title {
+        background: linear-gradient(to bottom, #3b6ea5, #2b4f7c);
+        color: white;
+        text-align: center;
+        padding: 8px;
+        font-size: 14px;
+        font-weight: bold;
+        border-top: 1px solid #6d8eb3;
+        border-bottom: 1px solid #1a3651;
+    }
+    #grupo .content {
+        padding: 15px;
+        background-color: #ece9d8;
+    }
+    #grupo .form-section {
+        margin-bottom: 10px;
+    }
+    #grupo .form-row {
+        display: flex;
+        margin-bottom: 6px;
+        align-items: center;
+    }
+    #grupo .form-col {
+        display: flex;
+        align-items: center;
+        margin-right: 30px;
+    }
+    #grupo label {
+        color: navy;
+        width: 90px;
+        font-size: 11px;
+    }
+    #grupo input[type="text"], select, textarea {
+        border: 1px solid #7f9db9;
+        padding: 1px 3px;
+        font-size: 11px;
+        font-family: Tahoma, Arial, sans-serif;
+        background-color: white;
+    }
+    #grupo .input-xs {
+        width: 35px;
+    }
+    #grupo .input-xl {
+        width: 350px;
+        background-color: #ffffe1;
+    }
+    #grupo textarea.input-xl {
+        height: 45px;
+        resize: none;
+        background-color: #ffffe1;
+    }
+    #grupo .checkbox-row {
+        margin-left: 120px;
+        margin-top: -2px;
+        margin-bottom: 8px;
+    }
+    #grupo .checkbox-row label {
+        color: #000080;
+        width: auto;
+        margin-right: 5px;
+    }
+    #grupo table {
+        width: 100%;
+        border-collapse: collapse;
+        background-color: white;
+        border: 1px solid #aca899;
+        margin-top: 5px;
+    }
+    #grupo thead {
+        background: linear-gradient(to bottom, #f3f3f3, #e3e3e3);
+    }
+    
+    #grupo th {
+        border: 1px solid #aca899;
+        padding: 3px 5px;
+        text-align: center;
+        font-weight: bold;
+        color: #000080;
+        font-size: 11px;
+    }
+    #grupo td {
+        border: 1px solid #d4d0c8;
+        padding: 2px 5px;
+        font-size: 11px;
+    }
+    #grupo tr:nth-child(even) {
+        background-color: #f7f7f7;
+    }
+    #grupo .col-codigo {
+        width: 60px;
+        text-align: center;
+    }
+    #grupo .button-bar {
+        padding: 10px 15px;
+        background-color: #ece9d8;
+        display: flex;
+        gap: 5px;
+        border-top: 1px solid #aca899;
+    }
+    #grupo button {
+        padding: 4px 20px;
+        font-size: 11px;
+        font-family: Tahoma, Arial, sans-serif;
+        background: linear-gradient(to bottom, #f0f0f0, #d4d0c8);
+        border: 1px solid #003c74;
+        cursor: pointer;
+    }
+    #grupo button:hover {
+        background: linear-gradient(to bottom, #e3f2ff, #b3d9ff);
+    }
+    #grupo button:disabled {
+        color: #aca899;
+        background: #ece9d8;
+        cursor: not-allowed;
+    }
+/*fin de grupo-contable*/
 
