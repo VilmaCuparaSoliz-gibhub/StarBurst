@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <title>Grupo Contable</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body id="grupo">
+  <div class="window">
+        <div class="title-bar">GRUPOS CONTABLES</div>
+        
+        <div class="header">
+            <span>UNIDAD: 0252</span>
+            <span>Nivel Central</span>
+        </div>
+        
+        <div class="header-title">GRUPO CONTABLE</div>
+        
+        <div class="content">
+            <div class="form-section">
+                <div class="form-row">
+                    <div class="form-col">
+                        <label><strong>Grupo</strong></label>
+                        <input type="text" class="input-xs" value="2">
+                    </div>
+                    <div class="form-col">
+                        <label><strong>Nombre</strong></label>
+                        <select class="input-xl">
+                            <option>MUEBLES Y ENSERES DE OFICINA</option>
+                        </select>
+                    </div>
+                </div>
+                
+                <div class="form-row">
+                    <div class="form-col">
+                        <label><strong>Vida Util</strong></label>
+                        <input type="text" class="input-xs" value="10">
+                    </div>
+                    <div class="form-col">
+                        <label><strong>Observaciones</strong></label>
+                        <textarea class="input-xl"></textarea>
+                    </div>
+                </div>
+                
+                <div class="checkbox-row" style="text-align:center">
+                    <label>Deprecia</label>
+                    <input type="checkbox" checked>
+                </div>
+            </div>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th class="col-codigo">CODIGO</th>
+                        <th>NOMBRE AUXILIAR</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td class="col-codigo">1</td><td>ACONDICIONADOR DE AIRE</td></tr>
+                    <tr><td class="col-codigo">2</td><td>ALACENA</td></tr>
+                    <tr><td class="col-codigo">3</td><td>ALFOMBRA O TAPIZ</td></tr>
+                    <tr><td class="col-codigo">4</td><td>AMPLIADORA DE FOTOGRAFIA</td></tr>
+                    <tr><td class="col-codigo">6</td><td>ARMARIO</td></tr>
+                    <tr><td class="col-codigo">7</td><td>ASPIRADORA</td></tr>
+                    <tr><td class="col-codigo">8</td><td>ATRIL</td></tr>
+                    <tr><td class="col-codigo">9</td><td>BALANZA</td></tr>
+                </tbody>
+            </table>
+        </div>
+        
+        <div class="button-bar">
+            <button>Nuevo</button>
+            <button>Modificar</button>
+            <button disabled>Guardar</button>
+            <button>Eliminar</button>
+            <button disabled>Deshacer</button>
+            <button>Salir</button>
+        </div>
+    </div>
+  
+</body>
+</html>
