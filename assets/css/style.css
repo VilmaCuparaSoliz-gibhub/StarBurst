@@ -6,7 +6,7 @@
     border:1px solid #ccc;
 }
 .of-titulo {
-    background:#0f477e;
+    background: linear-gradient(to bottom, #245EDC 0%, #1941A5 50%, #0A246A 100%);
     color:rgb(231, 232, 195);
     padding:10px;
     text-align:center;
@@ -48,8 +48,10 @@ th, td{
     text-align:left;
 }
 th{
-    background:#2f5d8a;
+    background: linear-gradient(to bottom, #245EDC 0%, #1941A5 50%, #0A246A 100%);
+    color: white;
 }
+
 .footer{
     padding:10px;
     text-align:center;
@@ -57,7 +59,7 @@ th{
 .footer button{
     padding:8px 12px;
     margin:5px;
-    background:#2f5d8a;
+    background: linear-gradient(to bottom, #245EDC 0%, #1941A5 50%, #0A246A 100%);
     color: white;
 }    
 
@@ -180,49 +182,48 @@ body {
 #unidad1 .un-principal {
     margin: 10px;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #d7dbe1;
+    background-color:#dddbdb;
     
 }
 #unidad1 .un-principal div:nth-child(1){
     background-color: #2C2C2C;
-    padding:3px;
+    padding:8px 15px;
     h4 {
         color: white;
+        font-size: 14px;
     }
 }
 #unidad1 .un-principal div:nth-child(2){
     border-top: 6px solid white;
     background-color: black;
-    padding: 10px;
+    padding: 5px 15px;
     h5{
         color:white;
+        font-size: 12px;
 
     }
 }
 #unidad1 .un-principal div:nth-child(3){
-    background-color: #244E72;
-    padding: 15px;
+    background: linear-gradient(to bottom, #245EDC 0%, #1941A5 50%, #0A246A 100%);
+    padding: 12px;
     h1{
         color: white;
         text-align: center;
+        font-size: 18px;
     }
 }
 /*mi tabla*/
 #unidad1 .un-tabla{
-
-    padding:10px 10px;
+    padding:14px;
     display: flex;
     justify-content: center;
-    width: 95%;
-    display: grid;
-    grid-template-rows: center;
-    background-color: #dddada;
+    background-color: #e8e8e8;
     margin: 20px;
 
 
 
 }
-#unidad1 tr {
+#unidad1 thead tr {
     background-color: #c3d0e1;
     color:white;
     border: 2px solid black;
@@ -230,42 +231,64 @@ body {
     text-align: center;
 
 }
+#unidad1 th {
+    color:white;
+    border:2px solid #0b0b0b ;
+    padding: 8px 15px;
+    text-align: center;
+    font-size: 13px;
+}
 #unidad1 th:nth-child(3){
     width:52%;
 }
-#unidad1 input {
-    background-color:white;
-    border: 1px solid black;
-    padding: 10px;
-    width: 100%;
-
-}
-#unidad1 input:focus{
-    background-color: #127EB2;
-    color: rgb(242, 229, 229);
-
-}
-#unidad1 input:not(:placeholder-shown){
-    background-color: #9fb3fc;
-    color: white;
-}
-#unidad1 .un-boton{
-    color: white;
-    padding: 9px 17px;
-    gap: 10px;
+#unidad1 td{
+    background-color: rgb(246, 242, 242);
+    border:2px solid black;
+    padding: 3px 3px;
     text-align: center;
+    color: #000;
+
+}
+#unidad1 td input {
+    background-color:transparent;
+    text-align: center;
+    border:none;
+    padding: 9px;
+    width: 99%;
+
+}
+#unidad1 td input:focus{
+    background-color: #eaa8f0;
+    color:black;
+
+}
+#unidad1 td input:not(:placeholder-shown){
+    background-color: #9bbaee;
+    color: white;
+}
+#unidad1 .un-boton{ 
+    color: white;
+    padding: 9px 15px;
+    border: 1.5px solid blue;
     border-radius: 6px;
-    border:1px solid#033E80; 
+    text-align: center;
+    width: fit-content;
+    margin: 15px auto;
     display: flex;
     justify-content: center;
-    
-
+    gap: 10px;
+    padding: 10px;
 }
+#unidad1 .un-boton button,
 #unidad1 button{
 
-    background-color: #003043;
-    padding-bottom: 12px 15px;
-    width: 10%;
+    background: linear-gradient(to bottom, #245EDC 0%, #1941A5 50%, #0A246A 100%);
+    color: white;
+    border: 2px solid #001a24;
+    border-radius: 5px;
+    font-size: 11px;
+    padding: 12px 40px;
+    width:auto ;
     
     
 }
@@ -514,23 +537,27 @@ body {
 }
 /*hasta aqui la rama de recursos*/
 /*unidad administrativo*/
-body {
 
-    font-family: Tahoma, Arial, sans-serif;
-    padding: 20px;
+
+body#admi1 {
+ font-family: Tahoma, Arial, sans-serif;
+    padding: 80px;
+    display: flex;
+    justify-content: center;
+     
 }
 
-.window {
+#admi1 .window {
     background: #e9edf2;
     border: 1px solid #000;
     box-shadow: 0px 0px 0px #070707;
 }
 
-.main-window {
+#admi1 .main-window {
     width: 620px;
 }
 
-.title-bar {
+#admi1 .title-bar {
     background: #000;
     color: white;
     padding: 4px 8px;
@@ -540,7 +567,8 @@ body {
     font-weight: bold;
 }
 
-.blue-banner {
+
+#admi1 .blue-banner {
     background: linear-gradient(to bottom, #6fa1cc, #1d4f7a);
     color: white;
     text-align: center;
@@ -549,54 +577,54 @@ body {
     border-bottom: 2px solid #0b2c4d;
 }
 
-.form-panel {
+#admi1 .form-panel {
     border: 2px solid #050505;
     margin: 10px;
     padding: 1px;
     background: #f7f7f7;
 }
 
-.field {
+#admi1 .field {
     display: flex;
     margin-bottom: 12px;
     align-items: center;
 }
 
-label {
+#admi1 label {
     width: 180px;
     color: #1f4e79;
     font-weight: bold;
 }
 
-input, textarea {
+#admi1 input, textarea {
     border: 2px solid #070707;
     padding: 4px;
     text-transform: uppercase;
 }
 
-.input-small {
+#admi1 .input-small {
     width: 60px;
 }
 
-.input-full {
+#admi1 .input-full {
     flex: 1;
 }
 
-.textarea-wrapper {
+#admi1 .textarea-wrapper {
     display: flex;
     flex: 1;
     border: 2px solid #0c0c0c;
     background: white;
 }
 
-textarea {
+#admi1 textarea {
     flex: 1;
     height: 40px;
     border: none;
     resize: none;
 }
 
-.scrollbar-v {
+#admi1 .scrollbar-v {
     width: 18px;
     background: #daccb2;
     text-align: center;
@@ -604,14 +632,14 @@ textarea {
     border-left: 1px solid #cfcbcb;
 }
 
-.actions {
+#admi1 .actions {
     display: flex;
     justify-content: flex-end;
     gap: 15px;
     margin: 20px;
 }
 
-.win-btn {
+#admi1 .win-btn {
     background: linear-gradient(to bottom, #2b6d8c, #0f3c4f);
     color: white;
     border: 1px solid #0f0f0f;
@@ -619,16 +647,16 @@ textarea {
     cursor: pointer;
 }
 
-.win-btn.highlight {
+#admi1 .win-btn.highlight {
     outline: 3px solid #382b74;
 }
 
-.btn-container {
+#admi1 .btn-container {
     position: relative;
     border-radius: 10px;
 }
 
-.tooltip {
+#admi1 .tooltip {
     position: absolute;
     top: -10px;
     right: -7;
@@ -638,7 +666,7 @@ textarea {
     font-size: 10px;
     margin-left: 125%;
 }
-.tooltipo {
+#admi1 .tooltipo {
     position: absolute;
     top: -40px;
     right: -7;
@@ -648,27 +676,27 @@ textarea {
     font-size: 10px;
     margin-left: 105%;
 }
-.modal-siaf {
+#admi1 .modal-siaf {
     position: fixed;
-    bottom: 200px;
+    bottom: 90px;
     left: 60%;
     transform: translateX(-144%);
     width: 300px;
     display: none;
 }
 
-.title-bar.black {
+#admi1 .title-bar.black {
     background: black;
 }
 
-.modal-body {
+#admi1 .modal-body {
     display: flex;
     align-items: center;
     padding: 1;
     background: #ececec;
 }
 
-.icon-info {
+#admi1 .icon-info {
     width: 35px;
     height: 35px;
     border-radius: 50%;
@@ -681,8 +709,9 @@ textarea {
     margin-right: 2px;
 }
 
-.modal-footer {
+#admi1 .modal-footer {
     display: flex;
     justify-content: center;
     padding: 4px;
 }
+
