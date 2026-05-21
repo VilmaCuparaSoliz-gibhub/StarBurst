@@ -1,3 +1,10 @@
+
+:root{
+    --color-principal: linear-gradient(#5791bc,#3b81ba,#17507e,#18456a,#022644);
+    --color-secundario: #aed0f1;
+    --color-boton: linear-gradient(#034281, #1463b3, #055780);
+    --letra:'MV Boli';
+}
 /*oficina*/
 .of-contenedor{
     width:900px;
@@ -179,119 +186,76 @@ body {
 }
 
 /* este es el inicio de unidad*/
-#unidad1 .un-principal {
-    margin: 10px;
-    font-family: Arial, Helvetica, sans-serif;
-    background-color:#dddbdb;
-    
+*{
+    margin: 0;
+    padding: 0;
 }
-#unidad1 .un-principal div:nth-child(1){
-    background-color: #2C2C2C;
-    padding:8px 15px;
-    h4 {
-        color: white;
-        font-size: 14px;
-    }
-}
-#unidad1 .un-principal div:nth-child(2){
-    border-top: 6px solid white;
-    background-color: black;
-    padding: 5px 15px;
-    h5{
-        color:white;
-        font-size: 12px;
 
-    }
+/*administracion unidad administrativa*/
+
+#sol-0{
+    background-color: rgb(47, 45, 45);
+    color: rgb(245, 230, 230);
+    font-family: var(--letra);
+    font-size: 12px;
+    margin: 3px;
 }
-#unidad1 .un-principal div:nth-child(3){
-    background: linear-gradient(to bottom, #245EDC 0%, #1941A5 50%, #0A246A 100%);
-    padding: 12px;
-    h1{
-        color: white;
-        text-align: center;
-        font-size: 18px;
-    }
+.sol-1{
+    background-image: var(--color-secundario);
+    font-family: var(--letra);
+    margin: 3px;
 }
-/*mi tabla*/
-#unidad1 .un-tabla{
-    padding:14px;
+#sol-2{
+    background-color: rgb(35, 33, 33);
+    color: white;
+    font-family: var(--letra);
+
+}
+#sol-3{
+    background-image: var(--color-principal);
+    text-align: center;
+    color: white;
+    padding: 1rem;
+
+}
+.gato-1{
     display: flex;
     justify-content: center;
-    background-color: #e8e8e8;
-    margin: 20px;
+}
 
-
-
+#gato-2{
+    width:83%;
+    margin:2rem;
+    background-color:black;
+    color:#f8fcf8;
 }
-#unidad1 thead tr {
-    background-color: #c3d0e1;
-    color:white;
-    border: 2px solid black;
-    padding: 10px;
-    text-align: center;
-
+#gato-3{
+    background-image:var(--color-boton);
+    border:2px inset rgb(198, 184, 184);
 }
-#unidad1 th {
-    color:white;
-    border:2px solid #0b0b0b ;
-    padding: 8px 15px;
-    text-align: center;
-    font-size: 13px;
-}
-#unidad1 th:nth-child(3){
-    width:52%;
-}
-#unidad1 td{
-    background-color: rgb(246, 242, 242);
-    border:2px solid black;
-    padding: 3px 3px;
-    text-align: center;
-    color: #000;
-
-}
-#unidad1 td input {
-    background-color:transparent;
-    text-align: center;
-    border:none;
-    padding: 9px;
-    width: 99%;
-
-}
-#unidad1 td input:focus{
-    background-color: #eaa8f0;
-    color:black;
-
-}
-#unidad1 td input:not(:placeholder-shown){
-    background-color: #9bbaee;
-    color: white;
-}
-#unidad1 .un-boton{ 
-    color: white;
-    padding: 9px 15px;
-    border: 1.5px solid blue;
-    border-radius: 6px;
-    text-align: center;
-    width: fit-content;
-    margin: 15px auto;
+.boton-miu{
     display: flex;
     justify-content: center;
-    gap: 10px;
-    padding: 10px;
+    border: 2px solid rgb(36, 80, 126);
+    border-radius: 1rem;
+    gap:3rem;
+    margin-right: 5rem;
+    margin-left: 5rem;
+    padding:5px;
 }
-#unidad1 .un-boton button,
-#unidad1 button{
-
-    background: linear-gradient(to bottom, #245EDC 0%, #1941A5 50%, #0A246A 100%);
+#boton1-miu,#boton2-miu, #boton3-miu, #boton4-miu, #boton5-miu{
+    background-image: var(--color-principal);
+    padding: 5px;
+    width: 8rem;
+    border:3.4px ridge rgb(199, 195, 195);
+    color:white;
+    font-size: 17px;
+a:link, a:visited{
     color: white;
-    border: 2px solid #001a24;
-    border-radius: 5px;
-    font-size: 11px;
-    padding: 12px 40px;
-    width:auto ;
-    
-    
-}
+    background-image: var(--color-principal);
+}}
+
+/*finnnnn de administracion unidad*/
 /**inicio de grupo contable*/
 #grupo {
         margin: 0;
