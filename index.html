@@ -1,68 +1,53 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Proyecto StarBurst - Sistema de Activos Fijos</title>
-    <style>
-     .principal {
-        background-color: rgb(208, 218, 248);
-        
-     }
-     .titulo{
-        font-size: 18px;
-        padding: 10px;
-        text-align: center;
-     }
-     #logoo{
-        margin:0 auto 10px auto;
-        width: 50%;
-        display: block;
-        height: auto;
-        border-radius: 14px;
-     }
-     .enlace{
-        
-        width: 30%;
-        font-size: 16px;
-        padding: 0px;
-        margin: 60px auto 30px auto; 
-     }
-     .footer {
-        text-align: center;
-     }
-   
-
-
-    </style>
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/vsiaf.css">
 </head>
 <body>
-
-    <div class="principal">
-        <div class="titulo">
-            <div><h1>StarBurst</h1></div>
-            <div><h2>Sistema de Activos Fijos  -VSIAF</h2></div>
-        <div>
-        <img src="assets/img/logo.jpeg" alt="logo-imagen" id="logoo">
+    <header class="primero">
+        <button id="encabezado1">SISTEMA DE ACTIVOS FIJOS-Administracion Autonoma para Obras Sanitarias-Potosi 
+        </button>
+        <button id="encabezado2">&#9644; &#9635; &#8999;</button>
+    </header>
+    <nav id="ayudaa">
+    <button id ="ayuda1">Sistema</button>
+    <button id="ayuda2">Ayuda</button>
+    </nav>
+    <div class="padreee">
+        SISTEMA DE ACTIVOS FIJOS 
+        <div class="vsiaf1">
+            <h6 id="subtitulo2">
+                    <p>USUARIO:admin</p>
+                    <p>BACKUPS:None</p>
+                </h6>
+            <img src="./assets/img/miau1.png" id="imagen1" alt="vsiaf" >
+            <h1 id="titulo1">VS.I.A.F</h1>
+            <h4 id="subtitulo1">Sistema de Activos Fijos</h4>
         </div>
+        <div class="pantalla1">
+          <div id="columna1">
+            <h6 id="menu1"><b>MENU PRINCIPAL</h6><hr>
+            <button id="boton1"><a href="pages/transferencia.html">Activos Fijos</a> </button> <hr>
+            <button id="boton1"><a href="pages/grupo-contable.html">Grupos y Auxiliares</a></button><hr>
+            <button id="boton1"><a href="pages/oficina.html">Oficinas y Responsables</a></button><br>
+            <button id="boton1"><a href="pages/generar_reportes.html">Generar Reportes</a></button><br>
+            <button id="boton1"><a href="pages/recursos.html">Administradores</a></button><br>
+            <button id="boton1"><a href="pages/iniciar-sesion.html">Iniciar Sesión</a></button><br>
+            <button id="boton1"><a href="pages/respaldos_bd.html">Respaldos BD</a></button><br>
+            <button id="boton1"><a href="./pages/unidad.html">Administrar Unidad</a></button><br>
+            <button id="boton1"><a href="pages/administrativa.html">Localización BD</a></button><br>
           </div>
-          <div class="enlace">
-            <h3> PRESENTAMOS</h3>
-            <ul>
-                <li><a href="pages/transferencia.html" class="btn-menu">0 · 🔄 Transferencia</a></li>
-                <li><a href="pages/grupo-contable.html" class="btn-menu">1 · 📊 Grupo Contable</a></li>
-                <li><a href="pages/oficina.html" class="btn-menu">2 · 📁 Oficina</a></li>
-                <li><a href="pages/recursos.html" class="btn-menu">3 · ⚙️ Administracion de Recuros</a></li>
-                <li><a href="pages/unidad.html" class="btn-menu">4 · 🏢 Administracion Unidad Administrativa</a></li>
-                <li><a href="pages/administrativa.html" class="btn-menu">5 · 📋 Unidad Administrativa</a></li>
-            </ul>
+          <div id="columna2">
+            <p><b>ENTIDAD: </b>0006 Viceprecidencia del Estado Plurinacional</p>
+            <p><b>UNIDAD: </b>025 gaceta oficial de Bolivia</p>
+            <img src="./assets/img/vsiaf.PNG">
+          </div>
         </div>
 
-        <div class="footer">
-            Desarrollado por el equipo de StarBurst:
-        </div>
-        
     </div>
-
+    <script src="./script/vsiaf.js"></script>
 </body>
 </html>
